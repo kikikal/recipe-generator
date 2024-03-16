@@ -43,6 +43,14 @@ h1 {
   font-size: 18px;
   font-family: "Courier New", Courier, monospace;
 }
+p {
+  text-align: left;
+  font-size: 14px;
+  margin-left: 20px;
+  display: flex;
+  margin-top: 2px;
+  color: rgba(0, 0, 0, 0.6);
+}
 
 #recipe {
   text-align: left;
@@ -62,4 +70,8 @@ footer a {
   color: #f56262;
   text-decoration: none;
   font-weight: bold;
+}
+
+.hidden {
+  display: none;
 }
